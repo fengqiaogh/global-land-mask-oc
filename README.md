@@ -13,6 +13,7 @@ uv add global-land-mask-oc
 # Usage
 ## Single Point Check
 ```python
+from global_land_mask_oc import globe
 def check_if_land():
     lat = 40
     lon = -120
@@ -21,6 +22,8 @@ def check_if_land():
 ```
 ## 2D Array Processing
 ```python
+from global_land_mask_oc import globe
+
 # Lat/lon
 lat = np.linspace(32.533, 28.676, 1000)
 lon = np.linspace(119.570, 123.266, 1002)

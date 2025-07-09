@@ -1,7 +1,10 @@
 [project]
 name = "global-land-mask-oc"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+authors = [
+  { name="Feng Qiao", email="qiaofengwy@163.com" },
+]
+description = "Global land mask for satellite ocean color remote sensing"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -10,7 +13,10 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "build>=1.2.2.post1",
     "cartopy>=0.24.1",
     "h5py>=3.14.0",
     "matplotlib>=3.10.3",
+    "setuptools>=80.9.0",
+    "twine>=6.1.0",
 ]
